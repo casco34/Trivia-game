@@ -1,0 +1,86 @@
+
+body {
+	background-image:  url("../images/blue.png");
+    background-size: cover;
+}
+.header >h1 {
+    color:white;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+}
+
+
+.container {
+    height: 500px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 30px;
+    border: 1px solid wheat;
+    box-shadow: 0 0 8px 3px #fff;
+}
+
+img{
+    float: right;
+    height: 300px;
+    margin: 25px;
+
+}
+.question {
+    font-family: 'Happy Monkey', cursive;
+    padding: 10px;
+    font-size: 25px;
+    color:whitesmoke;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+	background-color: brown;
+	text-align: center;
+}
+#startButton{
+    background-color: darkblue;
+    
+}
+
+.answerchoice{
+    font-family: 'Happy Monkey', cursive;
+    font-size: 25px;
+	width: 400px;
+	height: 40px;
+    display: inline block;
+    padding: 5px 0 9px 15px;
+    
+    margin: 30px 0 10px 10px;
+    color: #000000;
+    background-color:lightblue;
+    border-radius: 10px
+}
+
+.timer{
+    color: #fff;
+    font-family: 'Happy Monkey', cursive;
+}
+
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: brown;
+
+}
+
+.answers div {
+    margin: 0 auto;
+    
+}
+h1,h2,h3{
+    text-align: center;
+    
+    
+}
+
+
+
